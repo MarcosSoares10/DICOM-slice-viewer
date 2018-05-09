@@ -16,6 +16,6 @@ Sha1 Encryption.
 GDCM LIB
 
 ## Contributors
-- [Marcos Soares](linkedin.com/in/marcos-soares-391718141/)
-- [Alexandre Tolstenko](linkedin.com/in/aletolstenko/)
+- [Marcos Soares](http://linkedin.com/in/marcos-soares-391718141/)
+- [Alexandre Tolstenko](http://linkedin.com/in/aletolstenko/)
 - [Samuel Carlos](http://linkedin.com/in/samuelkarlos/)
