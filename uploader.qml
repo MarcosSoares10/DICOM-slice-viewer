@@ -362,7 +362,7 @@ ApplicationWindow {
 
         }
 
-        doc.open("POST", "https://www.docdo.com.br/v3/process/api.php");
+        doc.open("POST", "https://");
         doc.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         var params = "api=createexam&token=" + settings.valueToken("Token") +"&type="+settings.value("examType") + "&patient_id=" +settings.value("Id") + "&description="+txtAreaDescription.text;
         doc.send(params);
@@ -388,7 +388,7 @@ ApplicationWindow {
 
         }
 
-        doc.open("POST", "https://www.docdo.com.br/v3/process/api.php");
+        doc.open("POST", "https://");
         doc.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         var params = "api=finishedupload&exame_id="+settings.valueExamID("examId")+"&token="+settings.valueToken("Token");
         doc.send(params);
